@@ -1,6 +1,6 @@
 import React from "react";
 import "./bio.css";
-import profile from "../../Assets/images/profile.png";
+import profile from "../../assets/images/profile.png";
 
 const bio = () => {
   return (
@@ -18,12 +18,8 @@ const bio = () => {
             </div>
           </div>
           <h5 className="bio-text">
-            I enjoy traveling, yoga, photography, reading, and learning. I
-            recently became fascinated by the web development. This industry is
-            constantly evolving and I love that a person can enhance their
-            creativity, challenge their critical thinking skills, and travel
-            around the world while doing something that inspires and makes a
-            difference in this world.
+         words go here
+         
           </h5>
         </div>
       </div>
