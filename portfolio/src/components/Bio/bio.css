@@ -1,0 +1,132 @@
+.bio {
+    display: flex;
+    background-color: black;
+    /* background-color: #070E13; */
+    color: #f0d6d2;
+    height: 100vh;
+    /* padding: 10px; */
+  }
+  .bio-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bio-right {
+    flex: 1;
+    position: relative;
+  }
+  .bio-left-wrapper {
+    padding: 40px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .bio-hello {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .bio-name {
+    font-size: 60px;
+  }
+  
+  .bio-title {
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .bio-text {
+    /* font-size: 20px !important; */
+  }
+  
+  .bio-title-wrapper {
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+  }
+  
+  @keyframes move {
+    25% {
+      transform: translateY(-50px);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+    75% {
+      transform: translateY(-150px);
+    }
+    100% {
+      transform: translateY(-200px);
+    }
+  }
+  
+  .bio-title-item {
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #dba093;
+    display: flex;
+    align-items: center;
+  }
+  
+  .bio-img {
+    margin-top: 25px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .bio {
+      flex-direction: column;
+    }
+    .bio-left-wrapper {
+      padding: 10px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      height: 100%;
+    }
+  
+    .bio-text {
+      display: none;
+    }
+  
+    .bio-img {
+      max-width: 50%;
+    }
+  
+    .bio-title-item {
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .bio {
+      flex-direction: column;
+      margin-top: 50px;
+    }
+  
+    .bio-left-wrapper {
+      padding: 10px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      height: 100%;
+    }
+    .bio-text {
+      display: none;
+    }
+  
+    .bio-img {
+      max-width: 85%;
+    }
+  
+    .bio-title-item {
+      justify-content: center;
+    }
+  }
