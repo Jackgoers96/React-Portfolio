@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { AiOutlineCloudDownload } from "react-icons/ai";
-import { Container, Row, Button } from "react-bootstrap";
-import resume from "../../Assets/docs/RESUME.pdf";
-import "./Resume.css";
+// import { AiOutlineCloudDownload } from "react-icons/ai";
+// import { Container, Row, Button } from "react-bootstrap";
+// import resume from "../../assets/docs/RESUME.pdf";
+import "./resume.css";
 
-function Resume() {
+function resume() {
   // useEffect(() => {
   //     setWidth(window.innerWidth);
   //   }, []);

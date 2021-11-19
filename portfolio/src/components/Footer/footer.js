@@ -1,10 +1,8 @@
 import React from "react";
 import "./footer.css";
-import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { SiGmail } from "react-icons/si";
 
-function Footer() {
+
+function footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
@@ -24,7 +22,7 @@ function Footer() {
                 style={{ color: "#f0d6d2" }}
                 target="_blank"
               >
-                <AiFillGithub />
+
               </a>
             </li>
 
@@ -34,7 +32,7 @@ function Footer() {
                 style={{ color: "#f0d6d2" }}
                 target="_blank"
               >
-                <AiFillLinkedin />
+
               </a>
             </li>
 
@@ -44,7 +42,7 @@ function Footer() {
                 style={{ color: "#f0d6d2" }}
                 target="_blank"
               >
-                <SiGmail />
+
               </a>
             </li>
           </ul>

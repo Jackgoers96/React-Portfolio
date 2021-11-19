@@ -1,21 +1,16 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
+// import Navbar from "react-bootstrap/Navbar";
+// import Nav from "react-bootstrap/Nav";
+// import Container from "react-bootstrap/Container";
 import "./header.css";
-import {
-  BsLaptop,
-  BsFillPersonFill,
-  BsFillTelephoneFill,
-  BsFileEarmarkPersonFill,
-} from "react-icons/bs";
 
-function Header({ currentPage, handlePageChange }) {
+
+function header({ currentPage, handlePageChange }) {
   
   return (
     <Navbar className="header" fixed="top" variant="light">
       <Container className="header-container">
-        <div className="header-name">Alena Rehberger</div>
+        <div className="header-name">Jack Goers</div>
         <span></span>
         <span></span>
         <span></span>

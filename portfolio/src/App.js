@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Header from "./components/Header/header";
-import Intro from './components/bio/bio';
+import Intro from './components/Bio/bio';
 import Portfolio from './components/Portfolio/portfolio';
 import Footer from "./components/Footer/footer";
-import Contact from "./components/Contact/contact.js/contact";
+import Contact from "./components/Contact/contact";
 import Resume from "./components/Resume/resume";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 // In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
 const App = () => {
