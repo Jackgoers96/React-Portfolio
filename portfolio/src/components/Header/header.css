@@ -1,63 +1,65 @@
-.header {
-    display: flex;
-    height: 100px;
-    color: #f0d6d2;
-    background-color: #152835;
-    font-size: 20px;
-  }
-  
-  .header-name {
-    font-weight: bolder;
-    margin: 3rem;
-  }
-  
+header {
+  height: 100px;
+  color: #f0d6d2;
+  background-color: #152835;
+  font-size: 20px;
+}
+
+.header-name {
+  font-weight: bolder;
+  margin: 3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-link {
+  color: #f0d6d2 !important;
+  margin: 2rem;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+/* .navbar-nav :hover {
+  color: #dba093;
+  transform: scale(1.05);
+  box-shadow: 0 3px 3px 3px;
+  border-radius: 0.2rem;
+}
+
+.navbar-nav :active {
+  color: #dba093 !important;
+  transform: scale(1.05);
+  box-shadow: 0 3px 3px 3px;
+} */
+
+@media screen and (max-width: 768px) {
   .nav-link {
-    color: #f0d6d2 !important;
-    margin: 2rem;
-    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header {
+    font-size: 14px;
     align-items: center;
-    text-align: center;
+    justify-content: center;
   }
-  
-  .navbar-nav :hover{
-    color: #dba093;
-    transform: scale(1.05);
-    box-shadow: 0 3px 3px 3px;
-    border-radius: 0.2rem;
+  .header-name {
+    display: none;
   }
-  
-  .navbar-nav :active {
-    color: #dba093 !important;
-    transform: scale(1.05);
-    box-shadow: 0 3px 3px 3px;
+  .nav-link {
+    margin: 0;
+    padding: 0;
   }
-  
-  @media screen and (max-width: 768px) {
-    .nav-link {
-      margin: 0;
-      padding: 0;
-    }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    font-size: 14px;
   }
-  @media screen and (max-width: 480px) {
-    .header {
-      font-size: 14px;
-      align-items: center;
-      justify-content: center;
-    }
-    .header-name {
-      display: none;
-    }
-    .nav-link {
-      margin: 0;
-      padding: 0;
-    }
+  .header-name {
+    display: none;
   }
-  
-  @media screen and (max-width: 375px) {
-    .header {
-      font-size: 14px;
-    }
-    .header-name {
-      display: none;
-    }
-  }
+}

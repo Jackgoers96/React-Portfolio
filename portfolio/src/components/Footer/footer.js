@@ -1,24 +1,24 @@
 import React from "react";
-import "./footer.css";
+
 
 
 function footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-copywright">
-          <div>Alena Rehberger</div>
-        </Col>
-        <Col md="4" className="footer-copywright">
+    <div fluid className="footer">
+      <div>
+        <div md="4" className="footer-copywright">
+          <div>Jack Goers</div>
+        </div>
+        <div md="4" className="footer-copywright">
           <div>Copyright © {year}</div>
-        </Col>
-        <Col md="4" className="footer-body">
+        </div>
+        <div md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/AlenaReh"
+                href=""
                 style={{ color: "#f0d6d2" }}
                 target="_blank"
               >
@@ -28,7 +28,7 @@ function footer() {
 
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/alena-rehberger/"
+                href=""
                 style={{ color: "#f0d6d2" }}
                 target="_blank"
               >
@@ -38,7 +38,7 @@ function footer() {
 
             <li className="social-icons">
               <a
-                href="alenarehberger92@gmail.com"
+                href=""
                 style={{ color: "#f0d6d2" }}
                 target="_blank"
               >
@@ -46,9 +46,9 @@ function footer() {
               </a>
             </li>
           </ul>
-        </Col>
-      </Row>
-    </Container>
+        </div>
+      </div>
+    </div>
   );
 }
 

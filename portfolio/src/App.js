@@ -1,42 +1,40 @@
-import React, { useState } from "react";
-import Header from "./components/Header/header";
-import Intro from './components/Bio/bio';
-import Portfolio from './components/Portfolio/portfolio';
-import Footer from "./components/Footer/footer";
-import Contact from "./components/Contact/contact";
-import Resume from "./components/Resume/resume";
-// import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
+import {
+  HashRouter as Router,
+  Route,
+  Redirect,
+  Switch,
+} from "react-router-dom";
+import Header from "./components/Header/Header";
+import Bio from "./components/Bio/Bio";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
+import Resume from "./components/Resume/Resume";
+import "./App.css";
 
-// In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
 const App = () => {
-  const [currentPage, setCurrentPage] = useState('Intro');
 
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
-  const renderPage = () => {
-    if (currentPage === 'Intro') {
-      return <Intro />;
-    }
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />;
-    }
-    if (currentPage === 'Contact') {
-      return <Contact />;
-    }
-    return <Resume />;
-  };
-
-  
-  const handlePageChange = (page) => setCurrentPage(page);
   return (
 
-    <div>
-    {/* We are passing the currentPage from state and the function to update it */}
-    <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-    {/* Here we are calling the renderPage method which will return a component  */}
-    {renderPage()}
-    <Footer />
-  </div>
+    <Router>
+
+      <div className="App">
+        <Header />
+        <Switch>
+
+          <Redirect exact from="/" to="/Bio" />
+          <Route exact path="/Bio" component={Bio} />
+          <Route exact path="/Portfolio" component={Portfolio} />
+          <Route exact path="/Contact" component={Contact} />
+          <Route exact path="/Resume" component={Resume} />
+
+
+        </Switch>
+
+      </div>
+
+    </Router>
   );
 };
-
 export default App;

@@ -1,23 +1,20 @@
 import React, { useState, useEffect } from "react";
-// import { AiOutlineCloudDownload } from "react-icons/ai";
-// import { Container, Row, Button } from "react-bootstrap";
+
 // import resume from "../../assets/docs/RESUME.pdf";
 import "./resume.css";
 
 function resume() {
-  // useEffect(() => {
-  //     setWidth(window.innerWidth);
-  //   }, []);
+
 
   return (
     <div className="resume-wrapper">
-      <Container fluid className="resume-container">
-        <Row>
-          <Button className="resume-btn" href={resume} target="_blank">
+      <div fluid className="resume-container">
+        <div>
+          <button className="resume-btn" href={resume} target="_blank">
             Download My Resume
-            <AiOutlineCloudDownload />
-          </Button>
-        </Row>
+
+          </button>
+        </div>
         <div className="resume-div">
           <h2 className="resume-name">Jack Goers</h2>
           <p className="resume-items">
@@ -63,7 +60,7 @@ function resume() {
           <li>Creativity</li>
           <li className="alternate">Problem Solving</li>
         </div>
-      </Container>
+      </div>
     </div>
   );
 }
