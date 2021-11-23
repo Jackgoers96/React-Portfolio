@@ -1,12 +1,13 @@
 import React from "react";
-import Footer from "../Footer/Footer.js";
+
 
 
 
 const Bio = () => {
   return (
-    <div>
-      <Footer className="footer" />
+    <div class="bio">
+
+      <img src="../../assets/81663225.jpg" alt="Profile Goers, Jack"></img>
     </div>
 
   );

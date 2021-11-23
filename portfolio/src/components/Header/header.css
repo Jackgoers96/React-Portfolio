@@ -1,65 +1,47 @@
-header {
+.header {
   height: 100px;
-  color: #f0d6d2;
-  background-color: #152835;
-  font-size: 20px;
-}
-
-.header-name {
-  font-weight: bolder;
-  margin: 3rem;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.nav-link {
-  color: #f0d6d2 !important;
-  margin: 2rem;
+  color: #e1e8ed;
+  background-color: #434d56;
+  font-size: 16px;
+  margin-top: 0px;
+  display: flex;
   justify-content: flex-start;
   align-items: center;
-  text-align: center;
+}
+.headername {
+  color: #e1e8ed;
+  font-family: "ubuntu";
+  font-weight: bolder;
+  text-decoration: none;
+}
+.nav-link {
+  color: #e1e8ed;
+  margin: auto;
+  margin-left: 30%;
 }
 
-/* .navbar-nav :hover {
-  color: #dba093;
-  transform: scale(1.05);
-  box-shadow: 0 3px 3px 3px;
-  border-radius: 0.2rem;
+.nav-link:hover {
+  background-color: #3f4d57;
+  border-radius: 10%;
+  border-color: #3f4d57;
 }
 
-.navbar-nav :active {
-  color: #dba093 !important;
-  transform: scale(1.05);
-  box-shadow: 0 3px 3px 3px;
-} */
-
-@media screen and (max-width: 768px) {
-  .nav-link {
-    margin: 0;
-    padding: 0;
-  }
-}
 @media screen and (max-width: 480px) {
   .header {
-    font-size: 14px;
-    align-items: center;
-    justify-content: center;
-  }
-  .header-name {
-    display: none;
-  }
-  .nav-link {
-    margin: 0;
-    padding: 0;
+    font-size: 60%;
   }
 }
 
 @media screen and (max-width: 375px) {
   .header {
-    font-size: 14px;
+    margin-top: 0px;
+    font-size: 60%;
   }
-  .header-name {
-    display: none;
+  .headername {
+    font-weight: bolder;
+  }
+  .nav {
+    max-width: fit-content;
+    justify-content: flex-start;
   }
 }

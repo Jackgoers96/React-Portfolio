@@ -1,55 +1,52 @@
 import React from "react";
+import './footer.css';
 
 
 
-function footer() {
+
+function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <div fluid className="footer">
+    <div class="footer" >
       <div>
-        <div md="4" className="footer-copywright">
-          <div>Jack Goers</div>
+        <div class="footercopywright">
+          <h4>Jack Goers<br />
+            Copyright © {year}</h4>
         </div>
-        <div md="4" className="footer-copywright">
-          <div>Copyright © {year}</div>
-        </div>
-        <div md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
+        <div class="footer-body">
+          <ul class="footericons">
+            <li class="socialIcons">
               <a
-                href=""
-                style={{ color: "#f0d6d2" }}
+                href="https://github.com/Jackgoers96"
                 target="_blank"
-              >
+              >Github
 
               </a>
             </li>
 
-            <li className="social-icons">
+            <li class="socialicons">
               <a
-                href=""
-                style={{ color: "#f0d6d2" }}
+                href="https://www.linkedin.com/in/jack-goers-117998162/"
                 target="_blank"
-              >
+              >LinkedIn
 
               </a>
             </li>
 
-            <li className="social-icons">
+            <li class="socialIcons">
               <a
-                href=""
-                style={{ color: "#f0d6d2" }}
+                href="mailto:jackgoers@gmail.com"
                 target="_blank"
-              >
+              >jackgoers@gmail.com
 
               </a>
             </li>
           </ul>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 
-export default footer;
+export default Footer;
