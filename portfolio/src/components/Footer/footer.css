@@ -1,28 +1,38 @@
 .footer {
   height: 100px;
+  width: 100%;
   color: #e1e8ed;
   background-color: #434d56;
   font-size: 14px;
-  margin-top: 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-content: center;
+  align-items: center;
+  bottom: 0;
 }
 .socialIcons {
   color: #e1e8ed;
+  text-decoration: underline;
 }
+
 .socialIcons a:link,
 a:visited {
-  color: #55acee;
+  color: #e1e8ed;
+  text-decoration: none;
 }
 .socialIcons a {
   color: #e1e8ed;
+  text-decoration: none;
 }
 .footercopywright {
   align-content: space-around;
 }
+
 .footericons {
   justify-content: space-between;
+  align-content: space-between;
+  align-items: space-between;
+  text-decoration: none;
 }
 @media screen and (max-width: 480px) {
   .footer {
