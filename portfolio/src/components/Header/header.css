@@ -18,6 +18,8 @@
   color: #e1e8ed;
   margin: auto;
   margin-left: 30%;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 .nav-link:hover {

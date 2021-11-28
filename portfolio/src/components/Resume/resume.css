@@ -1,21 +1,58 @@
-.resume-wrapper {
-  display: flex;
+.resume-wrapper{
+   display: flex;
+   padding: 5%;
+   justify-content: space-around;
+   flex-direction: column;
+   
+}
+.container{
+  flex-wrap: wrap;
+}
+.resume {
+  border: none;
+  padding: 25px;
+  justify-content: space-around;
+  align-content: center;
+}
+.techCol {
+  flex-direction: row;
+  justify-content: space-around;
+}
+ul{
+  flex-direction:row;
+}
+h2{
+  border:none;
+}
+
+
+
+
+/* .container {
   height: auto;
   padding: 30px;
-  top: 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
-.skills {
+
+.techCol {
+  margin: 20px;
+  display: flex;
+  flex-wrap: column;
+  justify-content: space-around;
+}
+.skills{
+  display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 .resume {
   color: #e1e8ed;
-  height: auto;
   font-size: 20px;
-  padding: 50px;
-  width: 100%;
 }
 
+
+
+*/
 .resume-btn {
   color: #e1e8ed;
   background-color: #434d56;
@@ -26,24 +63,16 @@
   align-items: center;
   width: 100%;
 }
-
 .resume-btn:hover {
   cursor: pointer;
   transform: scale(1.01);
   box-shadow: 0 0 1px 2px;
-}
+} 
 
 .resume-name {
   color: #e1e8ed;
   font-weight: bolder;
-}
-
-.resume-skills {
-  padding: 10px;
-}
-
-.alternate {
-  color: #e1e8ed;
+  position: relative;
 }
 
 @media screen and (max-width: 375px) {
@@ -59,4 +88,4 @@
   li {
     font-size: 14px;
   }
-}
+} 

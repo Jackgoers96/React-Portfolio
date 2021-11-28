@@ -1,6 +1,7 @@
 .contact {
   height: 100vh;
   padding: 30px;
+  justify-content: space-evenly;
 }
 .contact-container {
   padding: 20px;

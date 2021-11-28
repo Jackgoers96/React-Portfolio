@@ -3,7 +3,6 @@ import stoyo from "../../assets/stoyo2.png";
 import prework from "../../assets/code.jpg";
 import hometown from "../../assets/Beerbg.png";
 import cute from "../../assets/Cute.jpg";
-import img26317 from "../../assets/26317.jpg";
 import green from "../../assets/weather.png";
 import database from "../../assets/dataBase.png"
 import "./portfolio.css";

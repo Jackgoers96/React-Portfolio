@@ -55,9 +55,9 @@ function Contact() {
                 <h1 className="contact-text">Connect with me!</h1>
                 <form className="form">
                     <div Id="name">
-                        <label className="labelText">
+                        <div className="labelText">
                             Name
-                        </label>
+                        </div>
                         <input
                             className="contact-input"
                             type="text"
