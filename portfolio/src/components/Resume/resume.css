@@ -1,26 +1,25 @@
 .resume-wrapper{
    display: flex;
    padding: 5%;
-   justify-content: space-around;
-   flex-direction: column;
-   
-}
-.container{
-  flex-wrap: wrap;
+   justify-content: center;
+
+
 }
 .resume {
   border: none;
   padding: 25px;
-  justify-content: space-around;
-  align-content: center;
+  
 }
-.techCol {
+
+.skills {
   flex-direction: row;
-  justify-content: space-around;
+flex: 1 1 auto;
 }
-ul{
-  flex-direction:row;
+
+.techCol {
+  flex-direction: column;
 }
+
 h2{
   border:none;
 }

@@ -20,8 +20,8 @@ function Resume() {
           <br/>
           
         </div>
-          <div classname="skills">
-          <h3 >TECHNICAL SKILLS</h3>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+          <div className="skills">
+          <h3 >Technical Skills</h3>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
           <div className="techCol">
 
 
