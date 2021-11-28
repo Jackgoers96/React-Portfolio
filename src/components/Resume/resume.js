@@ -1,6 +1,6 @@
 import React from "react";
 
-import resume from "../../assets/resume-goers-jack.pdf";
+import resume from "../../assets/documents/resume.pdf";
 import "./resume.css";
 
 function Resume() {
@@ -17,11 +17,11 @@ function Resume() {
         </div>
         <div className="resume">
           <h2>Jack Goers</h2>
-          <br/>
-          
+          <br />
+
         </div>
-          <div className="skills">
-          <h3 >Technical Skills</h3>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+        <div className="skills">
+          <h3 >Technical Skills</h3>
           <div className="techCol">
 
 
@@ -34,10 +34,10 @@ function Resume() {
             <li>Bootstrap</li>
             <li>Pure css</li>
             <li>GitHub</li>
-            
+
           </div>
           <div className="techCol">
-            
+
             <li>Chrome Extensions</li>
             <li>Adobe Photoshop/Illustrator</li>
             <li>Handlebars js</li>
@@ -47,10 +47,10 @@ function Resume() {
             <li>Express</li>
             <li>Slack</li>
             <li>Heroku</li>
-            
+
           </div>
           <div className="techCol">
-            
+
             <li>Sequelize</li>
             <li>MySQL</li>
             <li>MongoDB</li>
@@ -59,14 +59,14 @@ function Resume() {
             <li>MySQLWorkbench</li>
             <li>Robo 3T</li>
             <li>Socket IO</li>
-            
-            
-            
+
+
+
           </div>
         </div>
 
         <h3 className="resume-skills">Soft Skills</h3>
-        
+
         <li>Patience</li>
         <li>Open-minded</li>
         <li>Adaptability</li>
@@ -77,10 +77,10 @@ function Resume() {
         <li>Listener</li>
         <li>Dedicated</li>
         <li>Forward Thinking</li>
-        
-        </div>
+
       </div>
-    
+    </div>
+
 
   );
 }
