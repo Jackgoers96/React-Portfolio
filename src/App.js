@@ -3,7 +3,7 @@ import {
   HashRouter as Router,
   Route,
   Redirect,
-  Switch,
+  Switch, 
 } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Bio from "./components/Bio/Bio";
@@ -18,7 +18,6 @@ const App = () => {
   return (
 
     <Router>
-
       <div className="App">
         <Header />
         <Switch>
@@ -34,7 +33,8 @@ const App = () => {
         <Footer />
 
       </div>
-
+      
+      
     </Router>
   );
 };
