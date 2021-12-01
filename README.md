@@ -25,7 +25,7 @@ This app was created as an introduction to react strictly on the front end-
 
 ## Screenshots
 
-![Example screenshot](![image](https://user-images.githubusercontent.com/81663225/144172085-e25bc76b-169f-4c2c-a564-bf7afc119a18.png)
+![Example screenshot](https://user-images.githubusercontent.com/81663225/144172085-e25bc76b-169f-4c2c-a564-bf7afc119a18.png)
 
 
 ## Usage
