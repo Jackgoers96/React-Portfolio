@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.af84b3ee.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.04c0711c.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.04c0711c.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.ee778346.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.ee778346.js.map",
+    "static/js/2.d2799bb8.chunk.js": "/React-Portfolio/static/js/2.d2799bb8.chunk.js",
+    "static/js/2.d2799bb8.chunk.js.map": "/React-Portfolio/static/js/2.d2799bb8.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/main.af84b3ee.chunk.css.map": "/React-Portfolio/static/css/main.af84b3ee.chunk.css.map",
+    "static/js/2.d2799bb8.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.d2799bb8.chunk.js.LICENSE.txt",
+    "static/media/81663225.6d670826.jpg": "/React-Portfolio/static/media/81663225.6d670826.jpg",
+    "static/media/Beerbg.6806fd13.png": "/React-Portfolio/static/media/Beerbg.6806fd13.png",
+    "static/media/Cute.d07c1db3.jpg": "/React-Portfolio/static/media/Cute.d07c1db3.jpg",
+    "static/media/code.ba512726.jpg": "/React-Portfolio/static/media/code.ba512726.jpg",
+    "static/media/dataBase.0f4eece0.png": "/React-Portfolio/static/media/dataBase.0f4eece0.png",
+    "static/media/resume.b77def53.pdf": "/React-Portfolio/static/media/resume.b77def53.pdf",
+    "static/media/stoyo2.e31e9baa.png": "/React-Portfolio/static/media/stoyo2.e31e9baa.png",
+    "static/media/weather.245fae67.png": "/React-Portfolio/static/media/weather.245fae67.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee778346.js",
+    "static/js/2.d2799bb8.chunk.js",
+    "static/css/main.af84b3ee.chunk.css",
+    "static/js/main.04c0711c.chunk.js"
+  ]
+}
