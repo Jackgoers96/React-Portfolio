@@ -10,10 +10,11 @@ function Resume() {
     <div className="resume-wrapper">
       <div className="container">
         <div>
-          <button className="resume-btn" href={resume} target="_blank">
-            Download PDF
+          <a href="https://docdro.id/kqEAjiQ">
+            <button className="resume-btn" href={resume} target="_blank">
+              Download PDF
 
-          </button>
+            </button></a>
         </div>
         <div className="resume">
           <h2>Jack Goers</h2>
